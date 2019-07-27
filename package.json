@@ -1,0 +1,35 @@
+{
+  "name": "create-android-keystore",
+  "version": "1.0.1",
+  "description": "Create Android signing keystores easily.",
+  "main": "create-android-keystore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasp1/create-android-keystore.git"
+  },
+  "keywords": [
+    "create",
+    "android",
+    "keystore",
+    "easy",
+    "simple",
+    "generate"
+  ],
+  "author": "Miroslav Kaspar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kasp1/create-android-keystore/issues"
+  },
+  "homepage": "https://github.com/kasp1/create-android-keystore#readme",
+  "dependencies": {
+    "command-exists": "^1.2.8",
+    "randomatic": "^3.1.1",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "create-android-keystore": "./create-android-keystore.js"
+  }
+}
