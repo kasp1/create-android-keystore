@@ -1,6 +1,6 @@
 {
   "name": "create-android-keystore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create Android signing keystores easily.",
   "main": "create-android-keystore.js",
   "scripts": {

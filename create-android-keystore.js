@@ -83,7 +83,7 @@ async function createKeystore (quick) {
 
   console.log('Watch me create this '+keystore+' file for you...')
 	
-  let cmd = exec('"' + keytool + '" -genkey -v -keystore '+keystore+' -alias "' + alias + '" -keyalg RSA -keysize 2048 -validity 10000000 -deststoretype pkcs12 -storepass "' + pass + '" -keypass "' + pass + '" -dname "' + dname + '"')
+  let cmd = exec('"' + keytool + '" -genkey -v -keystore '+keystore+' -alias "' + alias + '" -keyalg RSA -keysize 2048 -validity 10000 -storepass "' + pass + '" -keypass "' + pass + '" -dname "' + dname + '"')
 	cmd.stderr.pipe(process.stderr)
 	cmd.stdout.pipe(process.stdout)
 
